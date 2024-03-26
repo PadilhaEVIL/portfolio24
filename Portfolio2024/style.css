@@ -20,6 +20,27 @@ body{
 .flex{
     display: flex;
 }
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(128, 0, 128);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: white;
+    font-size: 34px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: purple;
+}
+
 .gojo{
     width: 30%;
     height: 10%;
@@ -55,18 +76,11 @@ header nav ul li{
     display: inline-block;
     padding: 0 40px;
 }
-header .btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: rgb(128, 0, 128);
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-}
 
-header .btn-contato button:hover{
+
+.btn-contato button:hover{
     box-shadow: 0px 0px 8px rgb(241, 117, 241);
+    transform: scale(1.02);
 }
 
 /* Estilo do topo to do site */
@@ -85,6 +99,66 @@ section.topo-do-site .flex{
     gap: 90px;
     line-height: 40px;
 }
-.topo-do-site span{
+.topo-do-site .txt-topo-site h1 span{
     color: purple;
+    
+}
+.topo-do-site .txt-topo-site p{
+    color:#fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate    ;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }   
+    100%{
+        top: 30px;
+    }
+}
+
+/*Estilo das Especialidades*/
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px whitesmoke;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: purple;
+}
+
+.especialidades .especialidades-box p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/*Estilo Do Sobre*/
+section.sobre{
+    padding: 40px 4%;
+
+}
+
+.sobre .txt-sobre{
+    color: whitesmoke;
 }
