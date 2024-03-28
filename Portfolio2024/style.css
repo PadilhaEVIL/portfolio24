@@ -66,7 +66,7 @@ header > .interface{
 }
 
 header a{
-    color: rgb(110, 110, 110);
+    color: white;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -198,4 +198,17 @@ section.sobre .flex{
     font-size: 22px;
     cursor: pointer;
     transition: .2s;
+    color: whie;
+}
+
+.dropdown-menu{
+    background-color: black;
+    color: black;
+}
+.dropdown-item{
+    background-color: black;
+    color: white;
+}
+.btn-dropdown{
+    color: white    ;
 }

@@ -1,0 +1,15 @@
+/*Estilo do Portfólio*/
+h2.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    text-align: center;
+}
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px  whitesmoke;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    color: aliceblue;
+}
