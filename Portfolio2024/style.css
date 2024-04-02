@@ -198,7 +198,7 @@ section.sobre .flex{
     font-size: 22px;
     cursor: pointer;
     transition: .2s;
-    color: whie;
+    color: white;
 }
 
 .dropdown-menu{
@@ -211,4 +211,8 @@ section.sobre .flex{
 }
 .btn-dropdown{
     color: white    ;
+}
+
+html{
+    scroll-behavior: smooth;
 }
