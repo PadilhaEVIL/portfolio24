@@ -29,6 +29,7 @@ body{
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    color: whitesmoke;
 }
 
 h2.titulo{

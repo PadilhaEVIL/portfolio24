@@ -35,3 +35,14 @@ img{
 html{
     scroll-behavior: smooth;
 }
+
+.voltar{
+    position: fixed;
+    bottom: 20px;
+    right: 89vw;
+    padding: 5px 35px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: rgb(128, 0, 128);
+}
