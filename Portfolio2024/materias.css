@@ -79,3 +79,15 @@ section.portfolio .flex {
 .overlay:hover {
     opacity: 1;
 }
+
+.voltar{
+    position: static;
+    bottom: 20px;
+    right: 89vw;
+    padding: 4px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 13px;
+    border-radius: 35px;
+    background-color: rgb(128, 0, 128);
+}
