@@ -91,3 +91,15 @@ section.portfolio .flex {
     border-radius: 35px;
     background-color: rgb(128, 0, 128);
 }
+
+.ppe{
+    position: static;
+    float: right;
+    bottom: 20px;
+    padding: 4px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -45px;
+    border-radius: 35px;
+    background-color: rgb(128, 0, 128);
+}
