@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+}
+
+img{
+    width: 43vw;
+    height: 50vh;
+}
+
+.txt-h{
+    font-size: 12x;    
+}
+
+.btn-todos button{
+    padding: 5px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(128, 0, 128);
+    border: 1;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.voltar{
+    position: static;
+    bottom: 20px;
+    right: 89vw;
+    padding: 4px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 13px;
+    border-radius: 35px;
+    background-color: rgb(128, 0, 128);
+}
