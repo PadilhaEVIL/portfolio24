@@ -37,13 +37,12 @@ html{
 }
 
 .voltar{
-    position: static;
+    position: fixed;
     bottom: 20px;
     right: 89vw;
-    padding: 4px 25px;
+    padding: 5px 35px;
     font-size: 20px;
     font-weight: 600;
-    margin-top: 13px;
-    border-radius: 35px;
+    border-radius: 50px;
     background-color: rgb(128, 0, 128);
 }
